@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {}
+
+.navigation {}
+
+.header-logo {
+    
+}
+
+.link {}
+
+.header-logo-web {
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+.header-logo-studio {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+
+}
+
+.header-menu {}
+
+.list {}
+
+.item {}
+
+.header-menu-link {}
