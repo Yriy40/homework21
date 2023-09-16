@@ -1,6 +1,7 @@
 body {
     color: var(--SLATE, #434455);
     font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
 }
 .list{ list-style: none;
 }
@@ -46,6 +47,7 @@ body {
 color: var(--SLATE, #434455);
 
     font-size: 16px;
+    font-style: normal
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -64,7 +66,7 @@ color: var(--SLATE, #434455);
         font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
-        line-height: 1.1;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         background: var(--NAVY-BLUE, #2E2F42);
 }
@@ -76,8 +78,8 @@ border-radius: 4px;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5em;
-    letter-spacing: 0.04;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 /*=========================*/
@@ -99,7 +101,9 @@ border-radius: 4px;
 }
 /*=====================================*/
 /*=================team================*/
-
+.our-team{
+    background: var(--CLOUD, #F4F4FD);
+}
 .our-team-title {
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
