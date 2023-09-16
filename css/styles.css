@@ -1,12 +1,19 @@
 body {
+    color: var(--SLATE, #434455);
     font-family: 'Roboto', sans-serif;
 }
+.list{ list-style: none;
+}
+.link { text-decoration: none;
+}
+/*=================header===============*/
 .header {}
 
-.navigation {}
+.navigation {
+}
 
 .header-logo {
-    
+
 }
 
 .link {}
@@ -18,7 +25,7 @@ body {
         font-style: normal;
         font-weight: 700;
         line-height: 1.16;
-        letter-spacing: 0.54px;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
@@ -29,15 +36,100 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 1.16;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 
 }
 
-.header-menu {}
+.header-menu {
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.header-menu :hover {
+    color: var(--OCEAN, #404BBF);
+}
 
 .list {}
 
 .item {}
 
 .header-menu-link {}
+/*========================================*/
+/*=================address================*/
+.contacts {}
+
+.contacts-list {
+color: var(--SLATE, #434455);
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.contacts-list :hover {
+    color: var(--OCEAN, #404BBF);
+}
+.contacts-list :focus {
+    color: var(--OCEAN, #404BBF);
+}
+.contacts-item {}
+
+.contacts-link {}
+
+.link {}
+/*========================================*/
+/*=================hero================*/
+.hero {}
+
+.hero-title {
+    color: var(--WHITE, #FFF);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        background: var(--NAVY-BLUE, #2E2F42);
+}
+.hero-buy-btn {
+color: var(--WHITE, #FFF);
+border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.04;
+    cursor: pointer;
+}
+/*=========================*/
+/*=================plan================*/
+.plan {}
+
+.plan-title {}
+
+.plan-list {}
+
+.plan-item {}
+
+.subtitle {
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.plan-text {
+    color: var(--SLATE, #434455);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+/*=====================================*/
+/*=================plan================*/
