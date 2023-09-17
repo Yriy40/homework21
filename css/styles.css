@@ -25,18 +25,18 @@ body {
 
 .header-menu {
 }
-.header-menu :hover {
-    color: var(--OCEAN, #404BBF);
-}
-.header-menu :focus {
-    color: var(--OCEAN, #404BBF);
-}
 .header-menu-link link {
 color: var(--NAVY-BLUE, #2E2F42);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+.header-menu-link :hover {
+    color: var(--OCEAN, #404BBF);
+}
+.header-menu-link :focus {
+    color: var(--OCEAN, #404BBF);
 }
 /*========================================*/
 /*=================address================*/
@@ -48,7 +48,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.contacts-link link :hover{
+.contacts-link link :hover {
 color: var(--OCEAN, #404BBF);
 }
 .contacts-link link :focus {
@@ -103,7 +103,10 @@ color: var(--WHITE, #FFFFFF);
 /*=====================================*/
 /*=================team================*/
 .our-team {
-    background: var(--CLOUD, #F4F4FD);
+background: var(--CLOUD, #F4F4FD);
+}
+.our-team-item {
+background: var(--WHITE, #FFF);
 }
 .our-team-title {
     color: var(--NAVY-BLUE, #2E2F42);
