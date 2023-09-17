@@ -27,11 +27,16 @@ body {
 }
 .header-menu-link link {
 color: var(--NAVY-BLUE, #2E2F42);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02;
 }
-.header-menu-link :hover {
+.header-menu-link link :hover {
     color: var(--OCEAN, #404BBF);
 }
-.header-menu-link :focus {
+.header-menu-link link :focus {
     color: var(--OCEAN, #404BBF);
 }
 /*========================================*/
@@ -41,6 +46,10 @@ font-style: normal
 }
 .contacts-link link {
 color: var(--SLATE, #434455);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .contacts-link link :hover {
 color: var(--OCEAN, #404BBF);
