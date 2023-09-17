@@ -54,7 +54,9 @@ color: var(--SLATE, #434455);
 }
 /*========================================*/
 /*=================hero================*/
-
+.hero {
+background: var(--NAVY-BLUE, #2E2F42);
+}
 .hero-title {
     color: var(--WHITE, #FFF);
         text-align: center;
@@ -63,7 +65,6 @@ color: var(--SLATE, #434455);
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        background: var(--NAVY-BLUE, #2E2F42);
 }
 .hero-buy-btn {
 color: var(--WHITE, #FFF);
@@ -77,6 +78,11 @@ border-radius: 4px;
     cursor: pointer;
 }
 .hero-buy-btn :hover{
+    border-radius: 4px;
+    background: var(--OCEAN, #404BBF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.hero-buy-btn :focus {
     border-radius: 4px;
     background: var(--OCEAN, #404BBF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -164,12 +170,6 @@ border-radius: 4px;
 
 .footer-logo{
     color: var(--IRIS, #4D5AE5);
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 
 .footer-logo-studio {
