@@ -3,9 +3,9 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #FFFFFF;
 }
-.list { list-style: none;
+ul { list-style: none;
 }
-.link { text-decoration: none;
+a { text-decoration: none;
 }
 /*=================header===============*/
 
@@ -25,7 +25,7 @@ body {
 
 .header-menu {
 }
-.header-menu-link link {
+.header-menu-link {
 color: var(--NAVY-BLUE, #2E2F42);
 font-family: Roboto;
 font-size: 16px;
@@ -33,28 +33,25 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02;
 }
-.header-menu-link link :hover {
-    color: var(--OCEAN, #404BBF);
-}
-.header-menu-link link :focus {
-    color: var(--OCEAN, #404BBF);
+.header-menu-link :active {
+color: var(--OCEAN, #404BBF);
 }
 /*========================================*/
 /*=================address================*/
 .contacts {
 font-style: normal
 }
-.contacts-link link {
+.contacts-link {
 color: var(--SLATE, #434455);
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.contacts-link link :hover {
+.contacts-link :hover {
 color: var(--OCEAN, #404BBF);
 }
-.contacts-link link :focus {
+.contacts-link :focus {
     color: var(--OCEAN, #404BBF);
 }
 /*========================================*/
