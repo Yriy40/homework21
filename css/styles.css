@@ -33,7 +33,10 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.header-menu-link:active {
+.header-menu-link:hover {
+color: var(--OCEAN, #404BBF);
+}
+.header-menu-link:focus {
 color: var(--OCEAN, #404BBF);
 }
 /*========================================*/
