@@ -40,8 +40,6 @@ body {
 /*=================address================*/
 
 .contacts-list {
-color: var(--SLATE, #434455);
-
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -76,10 +74,10 @@ color: var(--WHITE, #FFF);
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.hero-buy-btn :hover{
+.hero-buy-btn:hover{
     background: var(--OCEAN, #404BBF);
 }
-.hero-buy-btn :focus {
+.hero-buy-btn:focus {
     background: var(--OCEAN, #404BBF);
 }
 /*=====================================*/
