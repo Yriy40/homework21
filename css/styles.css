@@ -31,9 +31,9 @@ font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.02;
+letter-spacing: 0.02em;
 }
-.header-menu-link :active {
+.header-menu-link:active {
 color: var(--OCEAN, #404BBF);
 }
 /*========================================*/
@@ -48,10 +48,10 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.contacts-link :hover {
+.contacts-link:hover {
 color: var(--OCEAN, #404BBF);
 }
-.contacts-link :focus {
+.contacts-link:focus {
     color: var(--OCEAN, #404BBF);
 }
 /*========================================*/
