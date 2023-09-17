@@ -9,11 +9,9 @@ body {
 }
 /*=================header===============*/
 
-.header-logo-web {
+.header-logo {
     color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
         font-size: 18px;
-        font-weight: 700;
         line-height: 1.16;
         letter-spacing: 0.03em;
         text-transform: uppercase;
@@ -21,12 +19,6 @@ body {
 
 .header-logo-studio {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 
 .header-menu {
@@ -162,11 +154,9 @@ border-radius: 4px;
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
-.footer-logo-web {
+.footer-logo{
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
     font-size: 18px;
-    font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -174,13 +164,6 @@ border-radius: 4px;
 
 .footer-logo-studio {
     color: var(--CLOUD, #F4F4FD);
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
 
 .footer-text {
     color: var(--CLOUD, #F4F4FD);
