@@ -27,10 +27,9 @@ body {
 }
 .header-menu-link link {
 color: var(--NAVY-BLUE, #2E2F42);
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .header-menu-link :hover {
     color: var(--OCEAN, #404BBF);
@@ -44,6 +43,8 @@ letter-spacing: 0.02em;
 font-style: normal
 }
 .contacts-link link {
+color: var(--SLATE, #434455);
+letter-spacing: 0.32px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
